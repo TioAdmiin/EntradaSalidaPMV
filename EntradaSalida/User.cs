@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EntradaSalida
 {
-    internal class User
+    public class User
     {
         //Informacion Personal
         private string name;

@@ -47,7 +47,7 @@
             // btnMark
             // 
             this.btnMark.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMark.Location = new System.Drawing.Point(305, 130);
+            this.btnMark.Location = new System.Drawing.Point(310, 212);
             this.btnMark.Name = "btnMark";
             this.btnMark.Size = new System.Drawing.Size(194, 23);
             this.btnMark.TabIndex = 1;
@@ -57,7 +57,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(305, 170);
+            this.button2.Location = new System.Drawing.Point(310, 252);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(194, 23);
             this.button2.TabIndex = 2;
@@ -67,7 +67,7 @@
             // btnLogout
             // 
             this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.Location = new System.Drawing.Point(305, 215);
+            this.btnLogout.Location = new System.Drawing.Point(310, 297);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(194, 23);
             this.btnLogout.TabIndex = 3;

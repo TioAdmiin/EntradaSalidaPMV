@@ -39,46 +39,44 @@
             // lblTitulo
             // 
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(12, 9);
+            this.lblTitulo.Location = new System.Drawing.Point(12, 33);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(735, 51);
+            this.lblTitulo.Size = new System.Drawing.Size(664, 51);
             this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Iniciar Sesión";
+            this.lblTitulo.Text = "Marcar";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblTitulo.Click += new System.EventHandler(this.lblTitulo_Click);
             // 
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.Location = new System.Drawing.Point(235, 174);
+            this.lblUsername.Location = new System.Drawing.Point(193, 158);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(61, 17);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Usuario:";
-            this.lblUsername.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(302, 171);
+            this.textBox1.Location = new System.Drawing.Point(260, 155);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(225, 23);
+            this.textBox1.Size = new System.Drawing.Size(227, 23);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(302, 224);
+            this.textBox2.Location = new System.Drawing.Point(260, 208);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(225, 23);
+            this.textBox2.Size = new System.Drawing.Size(227, 23);
             this.textBox2.TabIndex = 4;
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(211, 227);
+            this.lblPassword.Location = new System.Drawing.Point(169, 211);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(85, 17);
             this.lblPassword.TabIndex = 3;
@@ -87,9 +85,9 @@
             // btnIogin
             // 
             this.btnIogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIogin.Location = new System.Drawing.Point(302, 279);
+            this.btnIogin.Location = new System.Drawing.Point(296, 261);
             this.btnIogin.Name = "btnIogin";
-            this.btnIogin.Size = new System.Drawing.Size(225, 23);
+            this.btnIogin.Size = new System.Drawing.Size(127, 33);
             this.btnIogin.TabIndex = 5;
             this.btnIogin.Text = "Iniciar Sesión";
             this.btnIogin.UseVisualStyleBackColor = true;
@@ -98,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(759, 450);
+            this.ClientSize = new System.Drawing.Size(688, 359);
             this.Controls.Add(this.btnIogin);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblPassword);

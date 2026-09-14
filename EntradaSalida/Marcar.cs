@@ -12,8 +12,13 @@ namespace EntradaSalida
 {
     public partial class Marcar : Form
     {
-        public Marcar()
+        //Atrbituos
+        private User usuario;
+
+        //Constructor
+        public Marcar(User usuario)
         {
+            this.usuario = usuario;
             InitializeComponent();
         }
     }
